@@ -1,7 +1,11 @@
-body {
+body{
     font: 16px Montserrat, sans-serif;
     line-height: 1.8;
 }
+
+li a {
+    color:inherit;
+  }
 
 .hovercontainer {
     position: relative;
@@ -23,7 +27,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+
     background-color: grey;
 }
 
