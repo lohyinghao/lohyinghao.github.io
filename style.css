@@ -3,9 +3,26 @@ body{
     line-height: 1.8;
 }
 
-li a {
+.profilelink {
     color:inherit;
+    font-size: 20px;
   }
+
+.profilelink:hover {
+    color:lightsalmon;
+    text-decoration: none;
+}
+
+h2 span{
+    display: inline-block;
+}
+
+
+
+.bg-1 {
+    background-color: #7ac9d1;
+    color: white;
+}
 
 .hovercontainer {
     position: relative;
@@ -28,7 +45,7 @@ li a {
     width: 100%;
     opacity: 0;
 
-    background-color: grey;
+    background-color: lightslategray;
 }
 
 .hovercontainer:hover .overlay {
