@@ -6,7 +6,7 @@ body{
 .profilelink {
     color:inherit;
     font-size: 20px;
-  }
+}
 
 .profilelink:hover {
     color:lightsalmon;
@@ -16,8 +16,6 @@ body{
 h2 span{
     display: inline-block;
 }
-
-
 
 .bg-1 {
     background-color: #7ac9d1;
